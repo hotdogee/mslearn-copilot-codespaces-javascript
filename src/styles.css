@@ -123,3 +123,95 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* add an amazing animation to the social icons */
+@keyframes socialIcon {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.socialIcon:hover {
+  animation: socialIcon 0.5s ease;
+}
+
+/* add a smooth transition to the social icons */
+.socialIcon {
+  transition: transform 0.5s;
+}
+
+/* add a smooth transition to the box shadow */
+.box {
+  transition: box-shadow 0.5s;
+}
+
+.box:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* add a smooth transition to the button */
+button {
+  background-color: #4e567e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+button:hover {
+  background-color: #6e7a9e;
+}
+
+/* add a smooth transition to the button */
+button {
+  transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+button:hover {
+  background-color: #6e7a9e;
+}
+
+/* add a smooth transition to the button */
+button {
+  background-color: #4e567e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+button:hover {
+  background-color: #6e7a9e;
+}
+
+/* add a smooth transition to the button */
+button {
+  transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+button:hover {
+  background-color: #6e7a9e;
+}
+
+/* add a smooth transition to the button */
+button {
+  background-color: #4e567e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+}
